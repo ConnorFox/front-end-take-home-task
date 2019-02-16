@@ -2,6 +2,15 @@
 body {
   font-family: 'PT Sans', sans-serif; }
 
+/* Setting to light grey, to avoid content background 'flooding' due to plain white BG*/
+body {
+  background-color: #f0f0f0; }
+
+/* Wrapper for boxed layout */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 /* Container */
 .container {
   display: block; }
