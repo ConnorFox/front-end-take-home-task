@@ -1,17 +1,14 @@
 /* Setting to light grey, to avoid content background 'flooding' due to plain white BG*/
 body {
 	background-color: $lightest-bg-color;
+	margin: 0;
 }
 
 /* Wrapper for boxed layout */
 .wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
-}
-
-/* Container */
-.container {
-	display: block;
+	background-color: white;
 }
 
 /*  Row  */

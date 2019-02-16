@@ -1,0 +1,10 @@
+.arrow-footer {
+	@include uparrow($primary_color);
+
+}
+
+.arrow-copyright {
+	@include uparrow($accent-color);
+
+}
+

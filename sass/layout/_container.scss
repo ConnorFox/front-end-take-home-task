@@ -1,0 +1,35 @@
+/* Containers and each semantic element */
+.container {
+	display: block;
+	margin: 0 auto;
+	max-width: 960px
+}
+
+.header-cont { background-color: $secondary-color; }
+
+.main-cont { background-color: transparent; }
+
+.footer-cont { background-color: $primary-color; }
+
+.main-head {
+    margin: 0 auto;
+	padding: 30px 0 30px;
+	background-color: $secondary-color;
+}
+
+.main-content {
+    margin: 0 auto;
+	padding: 30px 0 30px;
+}
+
+.main-footer {
+    margin: 0 auto;
+	padding-top: 30px;
+	background-color: $primary-color
+}
+
+.copyright-footer { 
+	margin: 0 auto;
+	padding: 5px 0 5px;
+	background-color: $accent-color; 
+}
