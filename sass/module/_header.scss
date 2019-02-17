@@ -65,12 +65,20 @@
 }
 
 .main-menu{
-	padding: 15px;
+	padding: 10px;
+	margin: 0 auto;
+	font-size: 0;
 
 	li {
 		display: inline;
+		font-size: 1rem;
+
+		a:hover, a:active, .current{
+			background-color: $secondary-color;
+		}
 	}
+
 	a {
-		padding: 15px;
+		padding: 10px 20px 10px 20px;
 	}
 }

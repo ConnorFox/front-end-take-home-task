@@ -4394,11 +4394,16 @@ body {
   font-color: #999999; }
 
 .main-menu {
-  padding: 15px; }
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 0; }
   .main-menu li {
-    display: inline; }
+    display: inline;
+    font-size: 1rem; }
+    .main-menu li a:hover, .main-menu li a:active, .main-menu li .current {
+      background-color: #000000; }
   .main-menu a {
-    padding: 15px; }
+    padding: 10px 20px 10px 20px; }
 
 .arrow-footer {
   width: 0;
