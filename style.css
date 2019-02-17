@@ -4284,7 +4284,8 @@ body {
 .row {
   clear: both;
   padding: 0px;
-  margin: 0px; }
+  margin: 20px 0 0;
+  overflow: hidden; }
 
 /*  Column  */
 .col {
@@ -4304,7 +4305,7 @@ body {
   width: 32.2%; }
 
 .one-fourth {
-  width: 24%; }
+  width: 23%; }
 
 /* Containers and each semantic element */
 .container {
@@ -4329,7 +4330,6 @@ body {
 .main-content {
   display: block;
   margin: 0 auto;
-  padding: 0 0 30px;
   border-top: 1px solid white; }
 
 .main-footer {
@@ -4424,6 +4424,21 @@ body {
   color: white;
   font-size: 2rem;
   text-align: center; }
+
+.read-more-box {
+  text-align: center;
+  font-size: 15px; }
+  .read-more-box .read-more-text {
+    text-align: center;
+    border-bottom: 1px solid #cacaca;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    width: 100%; }
+    .read-more-box .read-more-text a {
+      color: #ff3334; }
+  .read-more-box .hide-divider {
+    background: white;
+    padding: 0 5px; }
 
 /* Button styling */
 .call-to-action {
