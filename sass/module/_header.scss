@@ -9,8 +9,12 @@
 
 .top-header {
 
+
+}
+
+.search-area{
+
 	input[type=text] {
-		float: right;
 		max-width: 175px;
 		width: 175px;
 		height: 25px;
@@ -30,6 +34,18 @@
 	::placeholder {
 		color: $tertiary-color;
 		opacity: 0.5;
+	}
+	position:relative;
+	float: right;
+
+	.search-button {
+		font-size: 20px;
+		position: relative;
+		border: none;
+		background-color: transparent;
+   		color: $secondary-color;
+    	right: 35px;
+   		top: 2px;
 	}
 }
 
