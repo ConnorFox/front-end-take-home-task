@@ -1,15 +1,6 @@
-.main-nav {
-	clear: both;
-	font-color:$light-primary-color
-}
-
 .logo {
 	float: left;
-}
-
-.top-header {
-
-
+	margin-bottom: 35px;
 }
 
 .search-area{
@@ -66,5 +57,20 @@
 
 	i {
 		font-size: 12px;
+	}
+}
+
+.main-nav {
+	font-color:$light-primary-color
+}
+
+.main-menu{
+	padding: 15px;
+
+	li {
+		display: inline;
+	}
+	a {
+		padding: 15px;
 	}
 }
