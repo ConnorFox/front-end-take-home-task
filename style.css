@@ -1,6 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 body {
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'PT Sans', sans-serif;
+  color: #333333; }
+
+header {
+  color: #999999; }
+
+footer {
+  color: white; }
+
+a {
+  color: #999999;
+  text-decoration: none; }
 
 /* Setting to light grey, to avoid content background 'flooding' due to plain white BG*/
 body {
@@ -71,6 +82,38 @@ body {
   margin: 0 auto;
   padding: 5px 0 5px;
   background-color: #ff3334; }
+
+.main-nav {
+  clear: both;
+  font-color: #999999; }
+
+.logo {
+  float: left; }
+
+.top-header input[type=text] {
+  float: right;
+  max-width: 220px;
+  height: 25px;
+  padding: 6px;
+  margin: 0 0 0 10px;
+  border: none;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  color: #999999;
+  background-color: #666666; }
+.top-header ::placeholder {
+  color: #cacaca;
+  opacity: 0.5; }
+
+.account-links {
+  float: right;
+  margin-top: 9px;
+  font-size: 14px; }
+  .account-links li {
+    display: inline; }
+    .account-links li:not(:last-child):after {
+      content: "|";
+      padding: 0 5px 0 10px; }
 
 .arrow-footer {
   width: 0;

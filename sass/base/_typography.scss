@@ -1,3 +1,17 @@
 body {
 	font-family: 'PT Sans', sans-serif;
+	color: $primary-color;
+}
+
+header {
+	color: $light-primary-color;
+}
+
+footer {
+	color: white;
+}
+
+a {
+	color: #999999;
+	text-decoration: none;
 }

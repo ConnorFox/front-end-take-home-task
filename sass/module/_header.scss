@@ -1,0 +1,45 @@
+.main-nav {
+	clear: both;
+	font-color:$light-primary-color
+}
+
+.logo {
+	float: left;
+}
+
+.top-header {
+
+	input[type=text] {
+		float: right;
+		max-width: 220px;
+		height: 25px;
+		padding: 6px;
+		margin: 0 0 0 10px;
+		border: none;
+		font-family: 'PT Sans', sans-serif;
+		font-style: italic;
+		color: $light-primary-color;
+		background-color: $search-bg-color;
+	}
+
+	::placeholder {
+		color: $tertiary-color;
+		opacity: 0.5;
+	}
+}
+
+.account-links {
+	float: right;
+	margin-top: 9px;
+	font-size: 14px;
+
+	li {
+		display: inline;
+
+		&:not(:last-child):after {
+			content: "|";
+			padding: 0 5px 0 10px;
+		}
+
+	}
+}
