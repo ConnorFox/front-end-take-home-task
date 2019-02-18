@@ -4686,7 +4686,13 @@ body {
     max-height: 500px;
     transition: max-height 0.5s ease-in !important; }
   .sitemap-open .newsletter-signup {
-    max-height: 500px; } }
+    max-height: 500px; }
+
+  .copyright-links .award-winning-link {
+    float: none; }
+  .copyright-links .copyright-info {
+    float: none;
+    margin: 10px 0; } }
 /* Blockquote styling */
 blockquote {
   background-color: #f0f0f0;
