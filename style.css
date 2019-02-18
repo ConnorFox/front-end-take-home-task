@@ -4446,6 +4446,17 @@ body {
     background: white;
     padding: 0 5px; }
 
+.cta-section {
+  text-align: center;
+  margin: 0 0 25px 0; }
+  .cta-section .cta-paragraph {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px; }
+  .cta-section .call-to-action {
+    top: 0px;
+    margin: 20px; }
+
 /* Blockquote styling */
 blockquote {
   background-color: #f0f0f0;
@@ -4494,6 +4505,14 @@ button {
   border-right: none;
   padding: 8px;
   text-shadow: 1px 1px #999999; }
+
+/* Blockquote styling */
+hr.full-width {
+  width: 100%;
+  height: 1px;
+  margin: 45px 0 45px;
+  background-color: #cacaca;
+  border: none; }
 
 .arrow-footer {
   width: 0;
