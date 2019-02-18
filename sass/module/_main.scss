@@ -52,6 +52,22 @@
 	}
 }
 
+.cta-section {
+	text-align: center;
+	margin: 0 0 25px 0;
+
+	.cta-paragraph {
+		margin: 0 auto;
+		width: 50%;
+		font-size: 20px;
+	}
+
+	.call-to-action {
+		top: 0px;
+		margin: 20px;
+	}
+}
+
 @media only screen and (min-width: 966px){
 	.image-float{
 		float: none;
@@ -91,20 +107,20 @@
 		font-size: 2vw;
 	}
 
+	.cta-section {
+		.cta-paragraph {
+		width: 85%;
+		}
+	}
 }
 
-.cta-section {
-	text-align: center;
-	margin: 0 0 25px 0;
+@media only screen and (max-width: 686px){
 
-	.cta-paragraph {
-		margin: 0 auto;
-		width: 50%;
-		font-size: 20px;
+	.cta-section {
+
+		.cta-paragraph{
+			width: 95%;
+		}
 	}
 
-	.call-to-action {
-		top: 0px;
-		margin: 20px;
-	}
 }
