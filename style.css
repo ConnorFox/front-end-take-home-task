@@ -4291,7 +4291,7 @@ body {
 .col {
   display: block;
   float: left;
-  margin: 1% 0 1% 2.6%;
+  margin: 1% 0 1% 2%;
   width: 100%; }
 
 .col:first-child {
@@ -4302,10 +4302,10 @@ body {
   width: 48.5%; }
 
 .one-third {
-  width: 32.2%; }
+  width: 32%; }
 
 .one-fourth {
-  width: 23%; }
+  width: 23.5%; }
 
 /* Containers and each semantic element */
 .container {
