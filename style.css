@@ -4494,6 +4494,30 @@ body {
   float: right;
   max-width: 133px;
   margin: 0 25px 0 25px; }
+  .social-links .facebook-icon {
+    width: 53px;
+    height: 53px;
+    background: url("images/social-icon-sprite.png") no-repeat;
+    background-position: 0 0;
+    display: inline-block; }
+  .social-links .twitter-icon {
+    width: 53px;
+    height: 53px;
+    background: url("images/social-icon-sprite.png") no-repeat;
+    background-position: -53px 0;
+    display: inline-block; }
+  .social-links .googleplus-icon {
+    width: 53px;
+    height: 53px;
+    background: url("images/social-icon-sprite.png") no-repeat;
+    background-position: -106px 0;
+    display: inline-block; }
+  .social-links .pinterest-icon {
+    width: 53px;
+    height: 53px;
+    background: url("images/social-icon-sprite.png") no-repeat;
+    background-position: -159px 0;
+    display: inline-block; }
 
 .copyright-links {
   font-size: 14px;

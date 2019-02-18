@@ -39,6 +39,21 @@
 	float: right;
 	max-width: 133px;
 	margin: 0 25px 0 25px;
+
+	.facebook-icon {
+		@include socialsprite(0 0);
+	}
+	.twitter-icon {
+		@include socialsprite(-53px 0);
+	}
+	.googleplus-icon {
+		@include socialsprite(-106px 0);
+	}
+	.pinterest-icon {
+		@include socialsprite(-159px 0);
+	}
+
+
 }
 
 .copyright-links {
