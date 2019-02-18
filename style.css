@@ -4445,6 +4445,30 @@ body {
     width: 100%; }
     .read-more-box .read-more-text a {
       color: #ff3334; }
+  .read-more-box .lightbulb-icon {
+    width: 59px;
+    height: 53px;
+    background: url("images/bespoke-icon-sprite.png") no-repeat;
+    background-position: 0 0;
+    display: inline-block; }
+  .read-more-box .warning-icon {
+    width: 59px;
+    height: 53px;
+    background: url("images/bespoke-icon-sprite.png") no-repeat;
+    background-position: -59px 0;
+    display: inline-block; }
+  .read-more-box .dog-icon {
+    width: 59px;
+    height: 53px;
+    background: url("images/bespoke-icon-sprite.png") no-repeat;
+    background-position: -118px 0;
+    display: inline-block; }
+  .read-more-box .camera-icon {
+    width: 59px;
+    height: 53px;
+    background: url("images/bespoke-icon-sprite.png") no-repeat;
+    background-position: -177px 0;
+    display: inline-block; }
   .read-more-box .hide-divider {
     background: white;
     padding: 0 5px; }

@@ -33,6 +33,19 @@
 		}
 	}
 
+	.lightbulb-icon {
+		@include bespokesprite(0 0);
+	}
+	.warning-icon {
+		@include bespokesprite(-59px 0);
+	}
+	.dog-icon {
+		@include bespokesprite(-118px 0);
+	}
+	.camera-icon {
+		@include bespokesprite(-177px 0);
+	}
+
 	.hide-divider{
 		background: white;
 		padding: 0 5px;

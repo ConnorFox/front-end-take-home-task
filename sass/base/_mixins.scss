@@ -15,3 +15,11 @@
 	background-position: $position;
 	display: inline-block;
 }
+
+@mixin bespokesprite($position){
+	width: 59px;
+	height: 53px;
+	background: url("images/bespoke-icon-sprite.png") no-repeat;
+	background-position: $position;
+	display: inline-block;
+}
