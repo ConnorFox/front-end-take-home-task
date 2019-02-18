@@ -28,14 +28,6 @@ button {
     text-shadow: 1px 1px $light-primary-color;
 }
 
-@media only screen and (max-width: 966px){
-
-	.action-button{
-		width: 30%;
-	}
-
-}
-
 .newsletter-submit{
 	float: right;
 	width: 80%;
@@ -47,4 +39,20 @@ button {
 	border-left: none;
 	border-right: none;
 	text-shadow: 1px 1px $light-primary-color;
+}
+
+@media only screen and (max-width: 966px){
+
+	.action-button{
+		width: 30%;
+	}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+	.action-button {
+    	width: 70%;
+    	margin-bottom: 20px;
+	}
 }

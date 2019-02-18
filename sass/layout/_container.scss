@@ -43,10 +43,15 @@
 	clear: both;
 }
 
+
 @media only screen and (max-width: 686px){
 
 	.main-footer {
 		padding: 0;
+	}
+
+	.action-box {
+		text-align: center;
 	}
 
 }

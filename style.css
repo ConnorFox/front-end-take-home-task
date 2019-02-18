@@ -4380,7 +4380,10 @@ body {
 
 @media only screen and (max-width: 686px) {
   .main-footer {
-    padding: 0; } }
+    padding: 0; }
+
+  .action-box {
+    text-align: center; } }
 .logo {
   float: left;
   margin-bottom: 35px; }
@@ -4458,7 +4461,7 @@ body {
 /* Styling for */
 .hero-image {
   background-image: url("images/wood-fencebg.jpg");
-  height: 240px;
+  height: 220px;
   margin: 0 auto;
   text-align: center; }
 
@@ -4533,6 +4536,12 @@ body {
   .flex-title {
     order: -1; } }
 @media only screen and (max-width: 966px) {
+  .hero-image {
+    height: 200px; }
+
+  .hero-block-text {
+    font-size: 1.6em; }
+
   .image-float {
     float: left;
     margin-right: 20px;
@@ -4552,8 +4561,35 @@ body {
   .cta-section .cta-paragraph {
     width: 85%; } }
 @media only screen and (max-width: 686px) {
+  .hero-image {
+    height: 180px; }
+
+  .hero-block-text {
+    width: 70%;
+    font-size: 1.4rem; }
+
   .cta-section .cta-paragraph {
     width: 95%; } }
+@media only screen and (max-width: 480px) {
+  .hero-block-text {
+    width: 70%;
+    font-size: 1.2rem; }
+
+  .image-float {
+    float: none;
+    margin-right: 0;
+    width: 80%; }
+
+  .title-image-flex {
+    display: block;
+    padding-top: 10px; }
+
+  .flex-title {
+    margin-top: 10px;
+    font-size: 1.3em; }
+
+  .flex-description {
+    font-size: 1em; } }
 /* Footer styling */
 .footer-menu {
   float: left;
@@ -4716,6 +4752,9 @@ blockquote {
     display: inline-block;
     margin: -1em 0 0 3.5em; }
 
+@media only screen and (max-width: 480px) {
+  blockquote {
+    font-size: 1.2em; } }
 /* Button styling */
 button {
   cursor: pointer; }
@@ -4742,9 +4781,6 @@ button {
   padding: 8px;
   text-shadow: 1px 1px #999999; }
 
-@media only screen and (max-width: 966px) {
-  .action-button {
-    width: 30%; } }
 .newsletter-submit {
   float: right;
   width: 80%;
@@ -4757,6 +4793,13 @@ button {
   border-right: none;
   text-shadow: 1px 1px #999999; }
 
+@media only screen and (max-width: 966px) {
+  .action-button {
+    width: 30%; } }
+@media only screen and (max-width: 480px) {
+  .action-button {
+    width: 70%;
+    margin-bottom: 20px; } }
 /* Blockquote styling */
 hr.full-width {
   width: 100%;

@@ -2,7 +2,7 @@
 
 .hero-image {
 	background-image: url("images/wood-fencebg.jpg");
-	height: 240px;
+	height: 220px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -69,6 +69,7 @@
 }
 
 @media only screen and (min-width: 966px){
+
 	.image-float{
 		float: none;
 	}
@@ -86,6 +87,14 @@
 
 
 @media only screen and (max-width: 966px){
+
+	.hero-image {
+		height: 200px;
+	}
+
+	.hero-block-text {
+		font-size: 1.6em
+	}
 
 	.image-float{
 		float: left;
@@ -116,6 +125,15 @@
 
 @media only screen and (max-width: 686px){
 
+	.hero-image {
+		height: 180px;
+	}
+
+	.hero-block-text {
+		width: 70%;
+		font-size: 1.4rem;
+	}
+
 	.cta-section {
 
 		.cta-paragraph{
@@ -123,4 +141,34 @@
 		}
 	}
 
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.hero-block-text {
+		width: 70%;
+		font-size: 1.2rem;
+	}
+
+	.image-float{
+		float: none;
+		margin-right: 0;
+		width: 80%;
+	}
+
+	.title-image-flex{
+		display: block;
+		padding-top: 10px;
+	}
+
+	.flex-title{
+		margin-top: 10px;
+		font-size: 1.3em;
+	}
+
+	.flex-description{
+		font-size: 1em;
+	}
 }
