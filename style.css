@@ -4441,6 +4441,9 @@ body {
     padding: 0 5px; }
 
 /* Button styling */
+button {
+  cursor: pointer; }
+
 .call-to-action {
   position: relative;
   top: -18px;
