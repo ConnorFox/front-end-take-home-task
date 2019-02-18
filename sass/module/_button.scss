@@ -8,11 +8,22 @@ button {
 	position: relative;
     top: -18px;
 	background: linear-gradient($accent-color, $light-accent-color);
-	border-top: 2px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 	border-left: none;
 	border-right: none;
 	padding: 5px 30px 5px 30px;
 	color: white;
 	font-size: 16px;
+}
+
+.action-button {
+	width: 100%;
+    background: linear-gradient($tertiary-color, $light-primary-color);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	border-left: none;
+	border-right: none;
+    padding: 8px;
+    text-shadow: 1px 1px $light-primary-color;
 }
