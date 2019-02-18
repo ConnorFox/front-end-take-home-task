@@ -40,3 +40,26 @@
 	max-width: 133px;
 	margin: 0 25px 0 25px;
 }
+
+.copyright-links {
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+
+	.copyright-info{
+		float: left;
+	}
+
+	.award-winning-link{
+		float: right;
+
+		a {
+			text-decoration: underline; 
+		}
+	}
+
+	.top-of-page-link{
+		width: 30%;
+		margin: 0 auto;
+	}
+}

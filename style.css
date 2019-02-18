@@ -8,6 +8,8 @@ header {
 
 footer {
   color: white; }
+  footer a {
+    color: white; }
 
 a {
   color: #999999;
@@ -4492,6 +4494,20 @@ body {
   float: right;
   max-width: 133px;
   margin: 0 25px 0 25px; }
+
+.copyright-links {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px; }
+  .copyright-links .copyright-info {
+    float: left; }
+  .copyright-links .award-winning-link {
+    float: right; }
+    .copyright-links .award-winning-link a {
+      text-decoration: underline; }
+  .copyright-links .top-of-page-link {
+    width: 30%;
+    margin: 0 auto; }
 
 /* Blockquote styling */
 blockquote {
