@@ -4466,7 +4466,7 @@ body {
   list-style-type: none;
   line-height: 30px;
   padding: 0 50px 0 20px;
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 14px; }
   .footer-menu a {
     color: white; }
