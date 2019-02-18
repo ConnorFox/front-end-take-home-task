@@ -13,12 +13,6 @@
 	}
 }
 
-@media only screen and (max-width: 766px){
-	.footer-menu {
-		font-size: 1.7vw;
-	}
-}
-
 
 .newsletter-signup {
 	float: right;
@@ -46,6 +40,10 @@
 	float: right;
 	max-width: 133px;
 	margin: 0 25px 0 25px;
+
+	.icon-wrap {
+		display: inline;
+	}
 
 	.facebook-icon {
 		@include socialsprite(0 0);
@@ -85,3 +83,94 @@
 		margin: 0 auto;
 	}
 }
+
+
+@media only screen and (max-width: 766px){
+	.footer-menu {
+		font-size: 1.7vw;
+		padding: 0 20px 0 20px;
+	}
+
+	.social-links{
+		margin: 0;
+	}
+}
+
+
+@media only screen and (max-width: 658px){
+
+	.social-links{
+		max-width: none;
+		float: none;
+		text-align: center;
+
+		.icon-wrap {
+			width: 24%;
+			display: inline-block;
+		}
+
+
+		a {
+			margin: 0;
+		}	
+	}
+
+	.sitemap-accordion {
+		padding: 10px 0 10px;
+		text-align: center;
+
+		.footer-menu{
+			width: 49%;
+			padding: 0;
+			margin: 0;
+			font-size: 12px;
+		}
+
+		ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
+		.newsletter-signup {
+			max-height: 0; overflow:hidden; transition: max-height 1s ease-out; 
+		}
+
+		h5 {
+			margin: 0;
+
+			&:after { content: "Sitemap  +";}
+		}
+
+		.newsletter-signup{
+			float: none;
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+
+			input[type=text]{
+				float: none;
+				width: 80%;
+				margin-left: 4px;
+			}
+
+			.newsletter-submit {
+    			float: none;
+			}
+		}
+	}
+
+	.sitemap-open {
+
+		h4:after {
+			content: "Sitemap -";
+		}
+
+		ul { 
+			height:auto; 
+			max-height: 500px; 
+			transition: max-height 0.5s ease-in !important;
+		}
+
+		.newsletter-signup {
+			max-height: 500px;
+		}
+
+	}
+}
+

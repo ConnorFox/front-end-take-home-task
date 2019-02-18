@@ -42,3 +42,11 @@
 	background-color: $accent-color; 
 	clear: both;
 }
+
+@media only screen and (max-width: 658px){
+
+	.main-footer {
+		padding: 0;
+	}
+
+}

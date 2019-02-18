@@ -4378,6 +4378,9 @@ body {
   background-color: #ff3334;
   clear: both; }
 
+@media only screen and (max-width: 658px) {
+  .main-footer {
+    padding: 0; } }
 .logo {
   float: left;
   margin-bottom: 35px; }
@@ -4556,9 +4559,6 @@ body {
   .footer-menu a {
     color: white; }
 
-@media only screen and (max-width: 766px) {
-  .footer-menu {
-    font-size: 1.7vw; } }
 .newsletter-signup {
   float: right;
   font-size: 14px; }
@@ -4582,6 +4582,8 @@ body {
   float: right;
   max-width: 133px;
   margin: 0 25px 0 25px; }
+  .social-links .icon-wrap {
+    display: inline; }
   .social-links .facebook-icon {
     width: 53px;
     height: 53px;
@@ -4621,6 +4623,64 @@ body {
     width: 30%;
     margin: 0 auto; }
 
+@media only screen and (max-width: 766px) {
+  .footer-menu {
+    font-size: 1.7vw;
+    padding: 0 20px 0 20px; }
+
+  .social-links {
+    margin: 0; } }
+@media only screen and (max-width: 658px) {
+  .social-links {
+    max-width: none;
+    float: none;
+    text-align: center; }
+    .social-links .icon-wrap {
+      width: 24%;
+      display: inline-block; }
+    .social-links a {
+      margin: 0; }
+
+  .sitemap-accordion {
+    padding: 10px 0 10px;
+    text-align: center; }
+    .sitemap-accordion .footer-menu {
+      width: 49%;
+      padding: 0;
+      margin: 0;
+      font-size: 12px; }
+    .sitemap-accordion ul {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 1s ease-out; }
+    .sitemap-accordion .newsletter-signup {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 1s ease-out; }
+    .sitemap-accordion h5 {
+      margin: 0; }
+      .sitemap-accordion h5:after {
+        content: "Sitemap  +"; }
+    .sitemap-accordion .newsletter-signup {
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto; }
+      .sitemap-accordion .newsletter-signup input[type=text] {
+        float: none;
+        width: 80%;
+        margin-left: 4px; }
+      .sitemap-accordion .newsletter-signup .newsletter-submit {
+        float: none; }
+
+  .sitemap-open h4:after {
+    content: "Sitemap -"; }
+  .sitemap-open ul {
+    height: auto;
+    max-height: 500px;
+    transition: max-height 0.5s ease-in !important; }
+  .sitemap-open .newsletter-signup {
+    max-height: 500px; } }
 /* Blockquote styling */
 blockquote {
   background-color: #f0f0f0;
