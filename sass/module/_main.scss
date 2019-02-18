@@ -52,6 +52,47 @@
 	}
 }
 
+@media only screen and (min-width: 966px){
+	.image-float{
+		float: none;
+	}
+
+	.title-image-flex{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.flex-title{
+		order: -1;
+	}
+
+}
+
+
+@media only screen and (max-width: 966px){
+
+	.image-float{
+		float: left;
+		margin-right: 20px;
+		width: 40%;
+	}
+
+	.title-image-flex{
+		display: block;
+		padding-top: 10px;
+	}
+
+	.flex-title{
+		margin-top: 10px;
+		font-size: 3vw;
+	}
+
+	.flex-description{
+		font-size: 2vw;
+	}
+
+}
+
 .cta-section {
 	text-align: center;
 	margin: 0 0 25px 0;

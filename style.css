@@ -4315,6 +4315,28 @@ body {
 .one-fourth {
   width: 23.5%; }
 
+/* Tablet Break - Fourths become halfs, otherwise Full Width Columns */
+@media only screen and (max-width: 966px) {
+  .one-half {
+    width: 97%; }
+
+  .one-third {
+    width: 97%;
+    margin: 1% 0 1% 0%; }
+
+  .one-fourth {
+    width: 48.5%; }
+    .one-fourth:nth-child(3) {
+      margin-left: 0; } }
+/* Mobile Break - Full Width Columns */
+@media only screen and (max-width: 509px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+
+  .one-half,
+  .one-third,
+  .one-fourth {
+    width: 100%; } }
 /* Containers and each semantic element */
 .container {
   display: block;
@@ -4417,6 +4439,19 @@ body {
   .main-menu a {
     padding: 10px 20px 10px 20px; }
 
+@media only screen and (max-width: 966px) {
+  .main-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 10px 0 10px; }
+    .main-menu li {
+      width: 20%; }
+    .main-menu a {
+      padding: 10px 0px 10px 0px;
+      width: 100%;
+      display: inline-block; } }
 /* Styling for */
 .hero-image {
   background-image: url("images/wood-fencebg.jpg");
@@ -4473,6 +4508,32 @@ body {
     background: white;
     padding: 0 5px; }
 
+@media only screen and (min-width: 966px) {
+  .image-float {
+    float: none; }
+
+  .title-image-flex {
+    display: flex;
+    flex-direction: column; }
+
+  .flex-title {
+    order: -1; } }
+@media only screen and (max-width: 966px) {
+  .image-float {
+    float: left;
+    margin-right: 20px;
+    width: 40%; }
+
+  .title-image-flex {
+    display: block;
+    padding-top: 10px; }
+
+  .flex-title {
+    margin-top: 10px;
+    font-size: 3vw; }
+
+  .flex-description {
+    font-size: 2vw; } }
 .cta-section {
   text-align: center;
   margin: 0 0 25px 0; }
@@ -4495,6 +4556,9 @@ body {
   .footer-menu a {
     color: white; }
 
+@media only screen and (max-width: 766px) {
+  .footer-menu {
+    font-size: 1.7vw; } }
 .newsletter-signup {
   float: right;
   font-size: 14px; }
@@ -4606,6 +4670,9 @@ button {
   padding: 8px;
   text-shadow: 1px 1px #999999; }
 
+@media only screen and (max-width: 966px) {
+  .action-button {
+    width: 30%; } }
 .newsletter-submit {
   float: right;
   width: 80%;

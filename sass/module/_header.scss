@@ -82,3 +82,29 @@
 		padding: 10px 20px 10px 20px;
 	}
 }
+
+@media only screen and (max-width: 966px) {
+
+	.main-menu {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		text-align: center;
+		padding: 0 10px 0 10px;
+
+		li {
+			width: 20%;
+		}
+
+		a {
+		    padding: 10px 0px 10px 0px;
+		    width: 100%;
+		    display: inline-block;
+		}
+	}
+}
+
+@media only screen and (max-width: 509px) {
+
+
+}
