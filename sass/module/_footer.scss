@@ -1,0 +1,42 @@
+/* Footer styling */
+
+.footer-menu {
+	float: left;
+	list-style-type: none;
+	line-height: 30px;
+	padding: 0 50px 0 20px;
+	margin: 0;
+	font-size: 14px;
+
+	a {
+		color:white;
+	}
+}
+
+.newsletter-signup {
+	float: right;
+	font-size: 14px;
+
+	input[type=text] {
+		width: 180px;
+		float: right;
+		height: 35px;
+		padding: 6px;
+		border: none;
+		font-family: 'PT Sans', sans-serif;
+		font-style: italic;
+		color: $light-primary-color;
+		background-color: $light-primary-color;
+		border-top: 2px solid $search-shadow-color;
+    	border-left: 2px solid $search-shadow-color;
+    	border-right: none;
+    	border-bottom: none;
+    	box-sizing: border-box;
+    }
+}
+
+.social-links {
+	float: right;
+	max-width: 133px;
+	margin: 0 25px 0 25px;
+}
