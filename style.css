@@ -4440,6 +4440,29 @@ body {
     background: white;
     padding: 0 5px; }
 
+/* Blockquote styling */
+blockquote {
+  background-color: #f0f0f0;
+  color: #666666;
+  width: 100%;
+  padding: 15px 10px 15px 10px;
+  margin: 0;
+  font-size: 1.4em;
+  font-style: italic; }
+  blockquote:before {
+    display: block;
+    position: relative;
+    color: #cacaca;
+    content: open-quote;
+    font-size: 10em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    top: 88px;
+    left: -40px; }
+  blockquote p {
+    display: inline-block;
+    margin: -1em 0 0 3.5em; }
+
 /* Button styling */
 button {
   cursor: pointer; }
