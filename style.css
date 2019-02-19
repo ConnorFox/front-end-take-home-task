@@ -4715,7 +4715,7 @@ body {
 
 @media only screen and (max-width: 766px) {
   .footer-menu {
-    font-size: 1.7vw;
+    font-size: 0.8em;
     padding: 0 20px 0 20px; }
 
   .social-links {
@@ -4755,7 +4755,8 @@ body {
       float: none;
       width: 100%;
       text-align: center;
-      margin: 0 auto; }
+      margin: 0 auto;
+      transition: max-height 1s ease-out; }
       .sitemap-accordion .newsletter-signup input[type=text] {
         float: none;
         width: 80%;

@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 766px){
 	.footer-menu {
-		font-size: 1.7vw;
+		font-size: 0.8em;
 		padding: 0 20px 0 20px;
 	}
 
@@ -130,9 +130,14 @@
 			font-size: 12px;
 		}
 
-		ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
+		ul { 
+			max-height: 0; 
+			overflow:hidden; 
+			transition: max-height 1s ease-out; }
 		.newsletter-signup {
-			max-height: 0; overflow:hidden; transition: max-height 1s ease-out; 
+			max-height: 0; 
+			overflow:hidden; 
+			transition: max-height 1s ease-out; 
 		}
 
 		h5 {
@@ -146,6 +151,7 @@
 			width: 100%;
 			text-align: center;
 			margin: 0 auto;
+			transition: max-height 1s ease-out; 
 
 			input[type=text]{
 				float: none;
