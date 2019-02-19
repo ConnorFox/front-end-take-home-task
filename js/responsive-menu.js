@@ -5,3 +5,9 @@ $(".mobile-footer h5").click(function(){
 	$('html, body').animate({ scrollTop: jQuery(this).offset().top - 170 }, 500 );
 }
 );
+
+$(".main-menu-icon").click(function(){
+	$(".main-menu").toggleClass("menu-open"); 
+	$('html, body').animate({ scrollTop: jQuery(this).offset().top - 170 }, 500 );
+}
+);
