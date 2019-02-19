@@ -37,7 +37,7 @@
 		@include bespokesprite(0 0);
 	}
 	.warning-icon {
-		@include bespokesprite(-59px 0);
+		@include bespokesprite(-58px 0);
 	}
 	.dog-icon {
 		@include bespokesprite(-118px 0);
@@ -93,7 +93,7 @@
 	}
 
 	.hero-block-text {
-		font-size: 1.6em
+		font-size: 1.5em
 	}
 
 	.image-float{
@@ -132,6 +132,7 @@
 	.hero-block-text {
 		width: 70%;
 		font-size: 1.4rem;
+		padding-bottom: 25px;
 	}
 
 	.cta-section {

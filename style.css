@@ -4541,7 +4541,7 @@ body {
     width: 59px;
     height: 53px;
     background: url("images/bespoke-icon-sprite.png") no-repeat;
-    background-position: -59px 0;
+    background-position: -58px 0;
     display: inline-block; }
   .read-more-box .dog-icon {
     width: 59px;
@@ -4585,7 +4585,7 @@ body {
     height: 200px; }
 
   .hero-block-text {
-    font-size: 1.6em; }
+    font-size: 1.5em; }
 
   .image-float {
     float: left;
@@ -4611,7 +4611,8 @@ body {
 
   .hero-block-text {
     width: 70%;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    padding-bottom: 25px; }
 
   .cta-section .cta-paragraph {
     width: 95%; } }
