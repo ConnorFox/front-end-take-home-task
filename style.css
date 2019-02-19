@@ -4430,6 +4430,9 @@ body {
   .account-links i {
     font-size: 12px; }
 
+.account-links-mobile {
+  display: none; }
+
 .main-nav {
   font-color: #999999; }
 
@@ -4445,6 +4448,9 @@ body {
   .main-menu a {
     padding: 10px 20px 10px 20px; }
 
+.main-menu-icon {
+  display: none; }
+
 @media only screen and (max-width: 966px) {
   .main-menu {
     display: flex;
@@ -4458,6 +4464,45 @@ body {
       padding: 10px 0px 10px 0px;
       width: 100%;
       display: inline-block; } }
+@media only screen and (max-width: 686px) {
+  .top-header {
+    text-align: center; }
+
+  .logo {
+    float: none;
+    margin-bottom: -20px; }
+
+  .account-links {
+    display: none; }
+
+  .account-links-mobile {
+    display: block;
+    margin-left: -40px; }
+
+  .search-area {
+    float: right;
+    text-align: right;
+    top: 38px;
+    left: 20px;
+    width: 80%; }
+    .search-area input[type=text] {
+      height: 20px;
+      width: 150px; }
+
+  .main-menu {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out; }
+
+  .menu-open {
+    height: auto;
+    max-height: 500px;
+    transition: max-height 0.5s ease-in !important; }
+
+  .main-menu-icon {
+    display: block;
+    padding: 12px 20px 12px 20px; } }
 /* Styling for */
 .hero-image {
   background-image: url("images/wood-fencebg.jpg");
