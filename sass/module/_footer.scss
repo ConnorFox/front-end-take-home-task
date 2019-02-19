@@ -68,10 +68,13 @@
 
 	.copyright-info{
 		float: left;
+		width: 30%;
 	}
 
 	.award-winning-link{
 		float: right;
+		width: 30%;
+
 
 		a {
 			text-decoration: underline; 
@@ -81,6 +84,7 @@
 	.top-of-page-link{
 		width: 30%;
 		margin: 0 auto;
+		display: inline-block;
 	}
 }
 
@@ -177,11 +181,15 @@
 
 		.award-winning-link {
 			float: none;
+			width: 50%;
+			margin: 0 auto;
 		}
 
 		.copyright-info{
 			float: none;
-			margin: 10px 0;
+			width: 50%;
+			padding: 10px 0;
+			margin: 0 auto
 		}
 	}
 }

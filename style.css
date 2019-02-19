@@ -4380,8 +4380,8 @@ body {
 
 @media only screen and (max-width: 686px) {
   .main-footer {
-    padding: 0; }
-
+    padding: 0; } }
+@media only screen and (max-width: 480px) {
   .action-box {
     text-align: center; } }
 .logo {
@@ -4656,14 +4656,17 @@ body {
   text-align: center;
   padding: 5px; }
   .copyright-links .copyright-info {
-    float: left; }
+    float: left;
+    width: 30%; }
   .copyright-links .award-winning-link {
-    float: right; }
+    float: right;
+    width: 30%; }
     .copyright-links .award-winning-link a {
       text-decoration: underline; }
   .copyright-links .top-of-page-link {
     width: 30%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    display: inline-block; }
 
 @media only screen and (max-width: 766px) {
   .footer-menu {
@@ -4725,10 +4728,14 @@ body {
     max-height: 500px; }
 
   .copyright-links .award-winning-link {
-    float: none; }
+    float: none;
+    width: 50%;
+    margin: 0 auto; }
   .copyright-links .copyright-info {
     float: none;
-    margin: 10px 0; } }
+    width: 50%;
+    padding: 10px 0;
+    margin: 0 auto; } }
 /* Blockquote styling */
 blockquote {
   background-color: #f0f0f0;
